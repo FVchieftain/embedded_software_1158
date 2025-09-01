@@ -45,4 +45,26 @@ Tuning 탭에서 Prediction Horizon = 20, Control Horizon = 2 로 설정
 Design의 Constraints, Weights를 다음과 같이 수정
 
 <img width="500" height="400" alt="Image" src="https://github.com/user-attachments/assets/4f070621-2f60-4885-a20c-ba431fb23c88" />
-<img width="500" height="400" alt="Image" src="https://github.com/user-attachments/asset러 ROS2 연결
+<img width="500" height="400" alt="Image" src="https://github.com/user-attachments/assets/402b4825-4142-40dd-a087-440c72557e3b" />
+
+
+
+7. 원격 PC 접속
+
+원격 PC로 터틀봇 연결 후 bringup 실행(Putty or SSH)
+
+```bash
+ros2 launch turtlebot3_bringup robot.launch.py
+```
+
+
+  
+8. ROS2 연결
+
+매트랩 명령창에서 다음 명령어를 입력
+ros domain은 로봇마다 달라서 각자 해당하는 값으로 변경
+
+```matlab
+setenv("ROS_DOMAIN_ID","30")
+setenv("RMW_IMPLEMENTATION","rmw_fastrtps_cpp")
+```
