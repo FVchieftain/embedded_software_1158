@@ -8,7 +8,13 @@
 <img width="2879" height="1340" alt="Image" src="https://github.com/user-attachments/assets/0442584c-f512-4b78-9647-eda88c6c9392" />
 
 3. 매트랩 명령창에서 다음 코드를 입력
-
+ ```matlab
+ % This is a sample MATLAB code block
+Plant_linear = c2d(tf([4985], [1, 69.18, 1044.3, 5000]), Ts, 'tustin');
+[A,B,C,D] = ssdata(Plant_linear);
+D(:) = 0;   % D행렬을 0으로 강제
+Plant_ss = ss(A,B,C,D,Ts);
+mpc_linear = mpc(Plant_ss, Ts);
 
 4. simulink에서 hybrid_controller_handmade_v1.slx 실행
 
