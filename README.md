@@ -31,7 +31,7 @@ mpc_linear = mpc(Plant_ss, Ts);
 
   
 5. simulink에서 signal editor 설정
-<img width="839" height="1035" alt="Image" src="https://github.com/user-attachments/assets/7c7a037a-b1fd-41e4-839c-cd152fcfc1c1" />
+<img width="400" height="500" alt="Image" src="https://github.com/user-attachments/assets/7c7a037a-b1fd-41e4-839c-cd152fcfc1c1" />
 
 다운로드한 신호 파일을 선택
 
