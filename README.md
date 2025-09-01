@@ -40,7 +40,7 @@ mpc_linear = mpc(Plant_ss, Ts);
 6. simulink에서 mpc 파라미터 설정
 <img width="500" height="400" alt="Image" src="https://github.com/user-attachments/assets/adf3d859-6956-477e-9368-e6b338214f42" />
 
-Tuning 탭에서 Prediction Horizon = 20, Control Horizon = 2 
+Tuning 탭에서 Prediction Horizon = 20, Control Horizon = 2 로 설정
 
 Design의 Constraints, Weights를 다음과 같이 수정
 
@@ -48,4 +48,13 @@ Design의 Constraints, Weights를 다음과 같이 수정
 <img width="500" height="400" alt="Image" src="https://github.com/user-attachments/assets/c500b5fd-fb15-47c6-8a5c-665f33ed14aa" />
 
 
+7. 원격 PC 연결
+터틀봇 전원을 켠 후 원격 PC에서 원격접속(Putty or SSH로 실행)
 
+
+turtlebot3 접속 후 bring up 실행
+```bash
+ros2 launch turtlebot3_bringup robot.launch.py
+```
+
+9. ROS2 연결
