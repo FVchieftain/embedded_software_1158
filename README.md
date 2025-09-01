@@ -41,6 +41,7 @@ mpc_linear = mpc(Plant_ss, Ts);
 <img width="500" height="400" alt="Image" src="https://github.com/user-attachments/assets/adf3d859-6956-477e-9368-e6b338214f42" />
 
 Tuning 탭에서 Prediction Horizon = 20, Control Horizon = 2 
+
 Design의 Constraints, Weights를 다음과 같이 수정
 <img width="500" height="400" alt="Image" src="https://github.com/user-attachments/assets/4f070621-2f60-4885-a20c-ba431fb23c88" />
 <img width="500" height="400" alt="Image" src="https://github.com/user-attachments/assets/c500b5fd-fb15-47c6-8a5c-665f33ed14aa" />
