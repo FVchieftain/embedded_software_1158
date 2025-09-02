@@ -71,3 +71,6 @@ ros domain은 로봇마다 달라서 각자 해당하는 값으로 변경
 setenv("ROS_DOMAIN_ID","30")
 setenv("RMW_IMPLEMENTATION","rmw_fastrtps_cpp")
 ```
+
+
+9. 시뮬링크에서 실행하면 signal editor에 적힌 ref대로 로봇이 동작합니다.
