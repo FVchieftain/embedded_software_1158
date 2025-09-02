@@ -1,5 +1,8 @@
 # embedded_software_1158
 
+## 사전작업
+실행할때 Toolbox가 없으면 실행이 안되니 FOMCON, ROS Toolbox 등등 설치가 필요한 것은 설치해주셔야 합니다.
+
 ## how to use
 1. 이 파일들을 모두 다운로드한 후 매트랩 폴더 내부에 저장
 <img width="600" height="300" alt="Image" src="https://github.com/user-attachments/assets/aa847663-dd47-4ba6-a71a-97c3ef7f7cb1" />
